@@ -1,2 +1,2 @@
-def greet(name: str) -> str:
+def greet(name: str | None) -> str:
     return f"Hello, {name or 'stranger'}"
